@@ -22,5 +22,4 @@ function clip()
 end
 
 noclip() -- to toggle noclip() and clip()
-end)
-end)
+end
