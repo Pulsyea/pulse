@@ -794,3 +794,7 @@ Tab3Section:NewButton("Serverhop","Hop servers",function()
 local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
 module:Teleport(game.PlaceId)
 end)
+
+Tab3Section:NewButton("Spy","Opens simple spy",function()
+loadstring(HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+end)
